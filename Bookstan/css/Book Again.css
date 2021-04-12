@@ -1,0 +1,93 @@
+#wrap{
+	background: #EEE8AA;
+	width: 1000px;
+	height: 600px;
+	margin: auto;
+	padding: 10px;	
+}
+ 
+a:link, a:visited{
+	color: black;
+	font-size: 18px;
+	text-decoration: none;
+	font-family: fantasy;	
+}
+
+a:hover{
+	color: grey;
+	text-decoration: underline;
+}
+
+h1{
+	color: #2F4F4F;
+	font-size: 50px;
+	text-shadow: 2px 2px #F0F8FF;
+	background: #5F9EA0;
+	width: 1500px;
+	height:57px;
+	padding: 0px;
+}
+
+header nav ul li{
+	display: inline-block;
+	margin: 5px;
+}
+header nav ul{
+	padding: 0px;
+}
+
+
+#Clube{
+	text-decoration: underline;
+	color: grey;
+	font-family: none;
+}
+
+#Clube:hover{
+	color: #DA70D6;
+}
+
+#post{
+	display: grid;
+	float: left;
+	background: #E0FFFF;
+	width: 700px;
+	height: 230px;
+}
+
+#post article h2{
+	font-size: 30px;
+	color: black;
+	background: #5F9EA0;
+	width: 700px;
+}
+
+#menu-lateral{
+	float: right;
+	background: #B0E0E6;
+	width: 300px;
+	height: 230px;
+	text-align: center;
+	font-size: 20px;
+} 
+
+#menu-lateral ul{
+	list-style: none;
+	
+}
+
+
+#mais-procurados{
+	color: #2F4F4F;
+	float: bottom;
+	background: #E0FFFF;
+	height: 425px;
+	
+}
+
+#mais-procurados section h2{
+	font-size: 30px;
+	color: black;
+	background: #5F9EA0;
+	width: 1000px;
+}

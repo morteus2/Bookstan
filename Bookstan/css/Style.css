@@ -1,0 +1,234 @@
+html{
+	margin: 0;
+	padding: 0;
+	font-family: Verdana, sans-serif;
+	overflow: auto;
+ 	}
+.wrap{
+	width: 100%;
+	min-height: 100vh;
+	padding-left: 8%;
+	padding-right: 8%;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.navbar{
+	position: fixed;
+	left: 0;
+	right: 0;
+	padding: 8px 30px;
+	display: inline-flex;
+	background: linear-gradient( to right, #6495ED, #483D8B);
+}
+h1 a{
+	text-decoration: none;
+	color: white;
+	font-size: 39px;
+	text-shadow: 4px 4px #008080;
+	cursor: pointer;
+
+}
+.logo{
+ 	width: 6%;
+ 	margin-top: 15px;
+ 	cursor: pointer;
+}
+nav{
+	flex: 1;
+	text-align: right;
+}
+.navbar ul{
+	list-style: none;
+	display: inline-flex;
+}
+.navbar ul li{
+	margin: 20px;
+}
+.navbar ul li a{
+	text-decoration: none;
+	color: white;
+	font-family: fantasy;
+	font-size: 20px;
+	letter-spacing: 1px;
+}
+.navbar ul li a:hover{
+	color: #F0E68C;
+}
+.container{
+	display: grid;
+	grid-template-columns: auto auto; 
+}
+.column-1{
+	width: 600px;
+	height: 550px;
+}
+.post{
+	margin: 130px 0;
+	display: block;
+	width: 650px
+	
+}
+.post h2{
+	font-size: 30px;
+	padding-left: 4%;
+	text-align: inherit;
+	letter-spacing: -2px;
+	text-shadow: 1px 1px #DCDCDC;
+	border-bottom: 1px solid #DCDCDC;
+	
+}
+.post p{
+	text-align: justify;
+	text-indent: 30px
+}
+.mais-procurados{
+	margin-top: -70px;
+	display: block;
+	width: 650px;
+	text-align: justify;
+}
+.mais-procurados h2{
+	font-size: 30px;
+	padding-left: 4%;
+	text-align: inherit;
+	letter-spacing: -2px;
+	text-shadow: 1px 1px #DCDCDC;
+	border-bottom: 1px solid #DCDCDC;
+}
+.mais-procurados dt{
+	border-bottom: 1px solid grey; 
+}
+.mais-procurados a{
+	text-decoration: none;
+	color: #708090;
+	padding-left: 12px;
+	font-size: 17.5px;
+	
+}
+.column-2{
+	width: 520px;
+	height: 1000px;
+	margin-left: 160px;
+}
+.busca{
+	margin: 130px 0 10px 0;
+	text-align: right;
+	background: #DCDCDC;
+	border: 1.5px solid grey;
+	border-radius: 5px 5px;
+	width: 360px;
+	height: 50px;
+	display: flex;
+	align-items: center;
+}
+.busca form{
+	font-size: 16px;
+}
+.localização{
+	margin: 5px 0 0 0;
+	border: 1.5px solid grey;
+	border-radius: 5px 5px;
+	background: #DCDCDC;
+	display: block;
+	text-align: right;
+	width: 360px;
+	height: 330px;
+}
+.localização h3{
+	text-align: center;
+	letter-spacing: -2px;
+}
+.maps{
+	width: 360px;
+}
+.promoções h3{
+	margin-top: -1px;
+	text-align: center;
+	align-items: center;
+	background: #C0C0C0;
+	border-bottom: 1.5px solid grey;
+	border-radius: 5px 5px;
+	height: 50px;
+	width: 361px
+}
+.promoções{
+	margin-top: 10px;
+	text-align: left;
+	background: #DCDCDC;
+	border: 1.5px solid grey;
+	border-radius: 5px 5px;
+	width: 360px;
+	height: 390px;
+}
+#agr{
+	margin-top: -19px;
+}
+#ultimo{
+	border-bottom: none;
+}
+.anúncio{
+	border-top: 1.5px solid grey;
+	border-bottom: 1.5px solid grey;
+	border-radius: 5px 5px;
+	width: 361px;
+	transition: 0.5s;
+}
+.anúncio img{
+  	width: 75px;
+  	height: 108px;
+  	display: inline-block;
+  	vertical-align: middle;
+  	border: 1.5px solid grey;
+  	border-radius: 5px 5px
+
+}
+.anúncio span{
+	font-size: 17px;
+	margin-top: 30px;
+	display: inline-block;
+	vertical-align: top;
+	text-align: left;
+	width: 275px;
+	text-transform: capitalize;
+	font-style: italic;
+	color: black;
+}
+.anúncio:hover{
+	background: #C0C0C0;
+}
+.footer{
+	text-align: center;
+	background: #6495ED;
+	position: absolute;
+	left: 0;
+	right:0;
+}
+.footer ul{
+	list-style: none;
+	display: inline-flex;
+}
+.footer ul li{
+	margin: 10px;
+}
+.footer ul li a{
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+	font-family: fantasy;
+}
+.footer ul li a:hover{
+	color: #F0E68C;
+}
+.redes img{
+	height: 25px;
+}
+.redes{
+	margin-top: -10px;
+}
+.links{
+	margin-top: -35px;
+}
+@media screen and (max-width: 600px) {
+	.column {
+    width: 100%;
+}
